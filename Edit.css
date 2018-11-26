@@ -1,0 +1,105 @@
+﻿<!doctype css >
+body {
+    width: 100%;
+    height: 100%;
+    padding-top: 150px;
+}
+html {
+    width: 100%;
+    height: 100%;
+    background: #F5F5F5;
+    font-family: Courier New, Courier, monospace;
+    font-size: 25px 
+
+       
+}
+@media(min-width:767px) {
+    .navbar {
+        padding: 550px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        background: #F5F5F5;
+       
+
+    }
+    .top-nav-collapse {
+      
+        padding: 50px;
+    }
+}
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    z-index: 999;
+    display: none;
+    bottom: 50px;
+    right: 0;
+    background-color: #FFF;
+    color: F5F5F5;
+    text-align: center;
+    font-size: 30px;
+    
+}
+    #back2Top:hover {
+        background-color: #F5F5F5;
+        color: #FFF;
+
+    }
+
+.WELKOM-section {
+    height: 100%;
+    padding-top: 500px;
+    padding-bottom: 500px;
+    padding-left: 150px;
+    text-align: left;
+    background: #FFFFFF;
+}
+.OVER_ONS_TEST-section {
+    height: 100%;
+    padding-top: 500px;
+    padding-bottom: 500px;
+    padding-right: 150px;
+    text-align: right;
+    background: #F5F5F5;
+}
+.INFORMATIE_TEST-section {
+    height: 100%;
+    padding-top: 500px;
+    padding-bottom: 500px;
+    padding-left: 150px;
+    text-align: left;
+    background: #FFFFFF;
+}
+.CONTACT_TEST-section {
+    height: 100%;
+    padding-top: 500px;
+    padding-bottom: 500px;
+    padding-right: 150px;
+    text-align: right;
+    background: #F5F5F5;
+}
+
+.FOOTER-section {
+    height: 100%;
+    body: 100%;
+    align-items: center;
+    padding-bottom: 15px;
+    text-align: center;
+    background: #FFFFFF;
+}
+
+.navbar-default {
+    background: #F2F2F2;
+    border-color: #F5F5F5;
+    text-align: left
+}
+ 
+
+.page-scroll {
+    padding-left: 150px;
+    padding-right: 150px;
+  
+    color: black
+}
+
